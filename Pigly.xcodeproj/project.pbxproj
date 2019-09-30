@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975D8EB323421A7400252027 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D8EB223421A7400252027 /* WelcomeViewController.swift */; };
 		E2B64DEB23420BA70077C220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEA23420BA70077C220 /* AppDelegate.swift */; };
 		E2B64DED23420BA70077C220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEC23420BA70077C220 /* SceneDelegate.swift */; };
 		E2B64DEF23420BA70077C220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEE23420BA70077C220 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		975D8EB223421A7400252027 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E2B64DE723420BA70077C220 /* Pigly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pigly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B64DEA23420BA70077C220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B64DEC23420BA70077C220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E2B64DF323420BA80077C220 /* Assets.xcassets */,
 				E2B64DF523420BA80077C220 /* LaunchScreen.storyboard */,
 				E2B64DF823420BA80077C220 /* Info.plist */,
+				975D8EB223421A7400252027 /* WelcomeViewController.swift */,
 			);
 			path = Pigly;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B64DEF23420BA70077C220 /* ViewController.swift in Sources */,
+				975D8EB323421A7400252027 /* WelcomeViewController.swift in Sources */,
 				E2B64DEB23420BA70077C220 /* AppDelegate.swift in Sources */,
 				E2B64DED23420BA70077C220 /* SceneDelegate.swift in Sources */,
 			);
