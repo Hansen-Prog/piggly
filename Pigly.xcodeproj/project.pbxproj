@@ -10,10 +10,11 @@
 		975D8EB323421A7400252027 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D8EB223421A7400252027 /* WelcomeViewController.swift */; };
 		E2B64DEB23420BA70077C220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEA23420BA70077C220 /* AppDelegate.swift */; };
 		E2B64DED23420BA70077C220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEC23420BA70077C220 /* SceneDelegate.swift */; };
-		E2B64DEF23420BA70077C220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DEE23420BA70077C220 /* ViewController.swift */; };
 		E2B64DF223420BA70077C220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B64DF023420BA70077C220 /* Main.storyboard */; };
 		E2B64DF423420BA80077C220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B64DF323420BA80077C220 /* Assets.xcassets */; };
 		E2B64DF723420BA80077C220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B64DF523420BA80077C220 /* LaunchScreen.storyboard */; };
+		E2B64DFF2342277A0077C220 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64DFE2342277A0077C220 /* loginController.swift */; };
+		E2B64E012342279B0077C220 /* registerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B64E002342279B0077C220 /* registerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		E2B64DE723420BA70077C220 /* Pigly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pigly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B64DEA23420BA70077C220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B64DEC23420BA70077C220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2B64DEE23420BA70077C220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2B64DF123420BA70077C220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B64DF323420BA80077C220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B64DF623420BA80077C220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B64DF823420BA80077C220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B64DFE2342277A0077C220 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		E2B64E002342279B0077C220 /* registerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				E2B64DEA23420BA70077C220 /* AppDelegate.swift */,
 				E2B64DEC23420BA70077C220 /* SceneDelegate.swift */,
-				E2B64DEE23420BA70077C220 /* ViewController.swift */,
 				E2B64DF023420BA70077C220 /* Main.storyboard */,
 				E2B64DF323420BA80077C220 /* Assets.xcassets */,
 				E2B64DF523420BA80077C220 /* LaunchScreen.storyboard */,
 				E2B64DF823420BA80077C220 /* Info.plist */,
 				975D8EB223421A7400252027 /* WelcomeViewController.swift */,
+				E2B64DFE2342277A0077C220 /* loginController.swift */,
+				E2B64E002342279B0077C220 /* registerController.swift */,
 			);
 			path = Pigly;
 			sourceTree = "<group>";
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B64DEF23420BA70077C220 /* ViewController.swift in Sources */,
 				975D8EB323421A7400252027 /* WelcomeViewController.swift in Sources */,
+				E2B64DFF2342277A0077C220 /* loginController.swift in Sources */,
 				E2B64DEB23420BA70077C220 /* AppDelegate.swift in Sources */,
+				E2B64E012342279B0077C220 /* registerController.swift in Sources */,
 				E2B64DED23420BA70077C220 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

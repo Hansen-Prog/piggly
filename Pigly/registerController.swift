@@ -1,14 +1,14 @@
 //
-//  WelcomeViewController.swift
+//  registerController.swift
 //  Pigly
 //
-//  Created by Marcus Jensen on 30/09/2019.
+//  Created by Andreas Hansen on 30/09/2019.
 //  Copyright © 2019 Andreas Hansen. All rights reserved.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class registerController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
