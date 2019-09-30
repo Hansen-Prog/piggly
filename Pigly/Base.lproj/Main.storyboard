@@ -33,13 +33,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wk9-BS-PXL">
+                                <rect key="frame" x="158" y="253" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="rx4-YJ-ACD" firstAttribute="top" secondItem="wk9-BS-PXL" secondAttribute="bottom" constant="171" id="0th-le-ysK"/>
                             <constraint firstItem="rx4-YJ-ACD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="3hj-y2-qLJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ust-Md-sFv" secondAttribute="bottom" constant="274" id="40h-Bk-hpO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wk9-BS-PXL" secondAttribute="trailing" constant="159" id="4Ym-JS-FeS"/>
                             <constraint firstItem="R3T-hz-iAO" firstAttribute="top" secondItem="rx4-YJ-ACD" secondAttribute="bottom" constant="22" id="A8a-6D-9bu"/>
                             <constraint firstItem="R3T-hz-iAO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="Asl-d9-6d5"/>
+                            <constraint firstItem="wk9-BS-PXL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="QJB-pc-G3X"/>
                             <constraint firstItem="Ust-Md-sFv" firstAttribute="leading" secondItem="R3T-hz-iAO" secondAttribute="trailing" constant="8" id="b9L-bW-ep7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ust-Md-sFv" secondAttribute="trailing" constant="119" id="du9-QN-LaQ"/>
                             <constraint firstItem="Ust-Md-sFv" firstAttribute="top" secondItem="rx4-YJ-ACD" secondAttribute="bottom" constant="16" id="e7s-L6-ywZ"/>
