@@ -21,12 +21,6 @@ class registerController: UIViewController {
          gradientLayer.colors = [UIColor(red: 63.0 / 255.0, green: 102.0 / 255.0, blue: 141.0 / 255.0, alpha: 1.0).cgColor,UIColor(red: 32.0 / 255.0, green: 51.0 / 255.0, blue: 71.0 / 255.0, alpha: 1.0).cgColor]
          self.view.layer.insertSublayer(gradientLayer, at: 0)
         signUpBtn.isEnabled = false
-        if(password.text != "") {
-            let isSecure = checkPw(text: password.text!)
-            if(isSecure == true) {
-                signUpBtn.isEnabled = true
-            }
-        }
     }
     
     func checkPw(text: String) -> Bool {
@@ -52,6 +46,12 @@ class registerController: UIViewController {
     @IBAction func signUp(sender: Any?){
         let welcomeVc = WelcomeViewController()
         welcomeVc.username = email.text
+    }
+    @IBAction func textFieldValueChange(_ sender: UITextField) {
+        let isSecure = checkPw(text: sender.text!)
+        if (isSecure == true) {
+            signUpBtn.isEnabled = true
+        }
     }
     
 
